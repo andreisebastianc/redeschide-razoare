@@ -2,6 +2,8 @@ import Link from 'next/link'
 
 import { CheckIcon } from '@/components/CheckIcon'
 import { Container } from '@/components/Container'
+import coverImage1 from "@/images/cover-1.png";
+import Image from "next/image";
 
 export function Introduction() {
   return (
@@ -12,29 +14,30 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          “Everything Starts as a Square” is a book and video course that
-          teaches you a simple method to designing icons that anyone can learn.
+          Noi, participanții la trafic cerem deblocarea traficului!
         </p>
         <p className="mt-4">
-          Before I learned how to design icons myself, I always imagined that
-          they were drawn by hand using the pen tool, some sort of fancy
-          graphics tablet, and hours and hours spent manually fine-tuning bezier
-          curves.
+          În 11 Octombrie 2022, Primăria Florești publica acest <a className="underline text-blue-600 hover:text-blue-800" href="https://www.facebook.com/primariacomuneifloresti/posts/pfbid02SMrGQrPo4Cg2ZPQb8LyCZtLzybqrXNdoy4jXWFgAAZjbLUkHDJAa6zcYxXXsgcTMl?locale=ro_RO" target="_blank">
+          anunț</a> pe Facebook:
+        </p>
+        <div className="flex gap-8 mt-8 items-center">
+          <p className="mt-4 italic">
+            `&quot;` UNIC pe o porțiune din strada Răzoare, pe direcția Cluj Napoca-Florești începând de joi 13 octombrie a.c. (2022) <br/><br/>
+            Se instituie sens unic pe strada Răzoare, pe sectorul cuprins între intersecția str. Valea Gârboului nr. 1 și până la str. Răzoare nr. 199. <br/><br/>
+            Măsura este parte din proiectul privind adaptarea infrastructurii rutiere la condițiile cerute pentru a face posibilă introducerea noii linii de transport în comun care va deservi această zonă.`&quot;`
+          </p>
+          <Image className="w-1/2" src={coverImage1} alt="" priority />
+        </div>
+        <p className="mt-4">
+          Un an mai târziu,...
         </p>
         <p className="mt-4">
-          But it turns out this isn’t how great icon designers work at all.
-        </p>
-        <p className="mt-4">
-          In “Everything Starts as a Square”, you’ll learn the systems experts
-          use to create pixel perfect icons, without relying on a steady hand.
+          Cerințele noastre...
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Using boolean operations to combine basic shapes into complex icons',
-            'How to adapt icons to different sizes',
-            'Translating icons from an outline style to a solid style',
-            'Identifying the characteristics that make an icon set cohesive',
-            'Figma features and keyboard shortcuts to speed up your workflow',
+            'Schimbarea sensului unic',
+            'Publicarea programului acestui proiect privind adaptarea infrastructurii rutiere',
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
@@ -43,18 +46,6 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-          By the end of the book, you’ll have all the confidence you need to dig
-          in and start creating beautiful icons that can hold their own against
-          any of the sets you can find online.
-        </p>
-        <p className="mt-10">
-          <Link
-            href="#free-chapters"
-            className="text-base font-medium text-blue-600 hover:text-blue-800"
-          >
-            Get two free chapters straight to your inbox{' '}
-            <span aria-hidden="true">&rarr;</span>
-          </Link>
         </p>
       </Container>
     </section>
