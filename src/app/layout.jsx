@@ -10,9 +10,9 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Everything Starts as a Square - Get lost in the world of icon design',
+  title: 'Redeschide Răzoare - Inițiativa cetățenească în Florești',
   description:
-    'A book and video course that teaches you how to design your own icons from scratch.',
+    'Noi, participanții la trafic cerem deblocarea traficului! Primăria Florești trebuie să revină asupra deciziei de a institui un sens unic pe o porțiune din strada Răzoare.',
 }
 
 export default function RootLayout({ children }) {
