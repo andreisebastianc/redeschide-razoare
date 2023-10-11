@@ -6,23 +6,6 @@ import { StarRating } from '@/components/StarRating'
 import coverImage1 from '@/images/cover-1.png'
 import coverImage2 from '@/images/cover-2.png'
 
-function Testimonial() {
-  return (
-    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
-      <blockquote className="mt-2">
-        <p className="font-display text-xl font-medium text-slate-900">
-          “Ni s-a promis autobuz pe strada cu sens unic și am primit parcări neamenajate.”
-        </p>
-      </blockquote>
-      <figcaption className="mt-2 text-sm text-slate-500">
-        <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Andrei Cîmpean
-        </strong>
-        , Cetățean Florești
-      </figcaption>
-    </figure>
-  )
-}
 
 export function Hero() {
   return (
@@ -34,7 +17,6 @@ export function Hero() {
           </div>
         </div>
         <div className="hidden lg:block relative px-4 sm:px-6 lg:col-span-7 lg:pb-14 lg:pl-16 lg:pr-0 xl:pl-20">
-          <Testimonial />
         </div>
         <div className="pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
