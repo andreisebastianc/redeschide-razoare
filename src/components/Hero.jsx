@@ -1,10 +1,9 @@
 import Image from 'next/image'
 
 import { Button } from '@/components/Button'
-import { GridPattern } from '@/components/GridPattern'
-import { StarRating } from '@/components/StarRating'
 import coverImage1 from '@/images/cover-1.png'
 import coverImage2 from '@/images/cover-2.png'
+import {CheckIcon} from "@/components/CheckIcon";
 
 
 export function Hero() {
@@ -23,8 +22,11 @@ export function Hero() {
             <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
               Redeschideți Răzoare!
             </h1>
-            <p className="mt-4 text-3xl text-slate-600">
-              Participă și tu la această inițiativă cetățenească. Semnează petiția!
+            <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-700">
+              Cerem Primăriei Florești redeschiderea imediată a sensului unic pe strada Răzoare, pe sectorul cuprins între intersecția str. Valea Gârboului nr. 1 și până la str. Răzoare nr. 199, pentru trafic din ambele sensuri.
+            </p>
+            <p className="mt-16 text-xl text-slate-600">
+              Participă și tu la această inițiativă cetățenească.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#" color="blue">
