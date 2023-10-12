@@ -1,5 +1,6 @@
 import {Container} from "@/components/Container";
 import {CheckIcon} from "@/components/CheckIcon";
+import Link from "next/link";
 
 export function WhatCityHallOwes() {
     return (
@@ -26,7 +27,11 @@ export function WhatCityHallOwes() {
                     ))}
                 </ul>
                 <p className="mt-8 text-xl tracking-tight text-blue-700">
-                    Toate acestea se pot realiza fără ca strada să fie sens unic ani de zile!
+                    Toate acestea se pot realiza fără ca strada să fie sens unic ani de zile! <Link
+                    href="#"
+                    className="mt-6 text-blue-600 underline hover:text-blue-800"
+                >Semnează petiția
+                </Link>!
                 </p>
             </Container>
         </section>
