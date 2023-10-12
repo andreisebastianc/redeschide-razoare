@@ -10,5 +10,5 @@ export default function Youtube() {
             autoplay: 0,
         },
     };
-    return <YouTube videoId="L6CyLVLFm3k" />
+    return <YouTube videoId="KmWa3HQujVg" />
 }
