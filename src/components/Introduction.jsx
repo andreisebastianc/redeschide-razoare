@@ -25,8 +25,9 @@ export function Introduction() {
                 <div
                     className="flex flex-col sm:flex-col lg:flex-row gap-8 mt-8 items-center">
                     <Image className="lg:w-1/2 flex-shrink-0 shadow-lg rounded-lg" src={coverImage1} alt="" priority/>
-                    <p className="mt-4 text-lg tracking-tight text-slate-700">
-                        &quot;UNIC pe o porțiune din strada Răzoare, pe direcția Cluj Napoca-Florești începând de joi 13
+                    <p className="text-lg tracking-tight text-slate-700">
+                        &quot;Anunț important<br/><br/>NOU-SENS UNIC pe o porțiune din strada Răzoare, pe direcția Cluj
+                        Napoca-Florești începând de joi 13
                         octombrie a.c. (2022) <br/><br/>
                         Se instituie sens unic pe strada Răzoare, pe sectorul cuprins între intersecția str. Valea
                         Gârboului nr. 1 și până la str. Răzoare nr. 199. <br/><br/>
