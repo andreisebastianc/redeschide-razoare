@@ -71,7 +71,8 @@ export function OneYearLater() {
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
                             Dacă ești de acord, <Link
-                            href="#"
+                            href="https://www.petitieonline.com/floresti_redeschide_razoare"
+                            target="_blank"
                             className="mt-6 text-blue-600 underline hover:text-blue-800"
                         >semnează petiția
                         </Link>!

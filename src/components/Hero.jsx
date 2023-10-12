@@ -29,7 +29,10 @@ export function Hero() {
               Participă și tu la această inițiativă cetățenească.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#" color="blue">
+              <Button
+                  href="https://www.petitieonline.com/floresti_redeschide_razoare"
+                  target="_blank"
+                  color="blue">
                 Semnează petiția
               </Button>
               <Button href="https://www.facebook.com/groups/341837508295570" target="_blank" variant="outline" color="blue">

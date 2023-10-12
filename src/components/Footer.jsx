@@ -7,7 +7,8 @@ export function Footer() {
             <div className="text-center text-sm text-slate-600 flex gap-2 justify-center">
                 <p>
                     <Link
-                        href="#"
+                        href="https://www.petitieonline.com/floresti_redeschide_razoare"
+                        target="_blank"
                         className="mt-6 text-blue-600 underline hover:text-blue-800"
                     >
                         Semnează petiția
