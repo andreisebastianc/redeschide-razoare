@@ -21,6 +21,15 @@ export function Footer() {
                         Înscrie-te în grup
                     </Link>
                 </p>
+                <p>
+                    <Link href="https://drive.google.com/file/d/1LM064RWbsDVRskhhvmcZxl4Bj9RwrpjR/view?usp=share_link"
+                          target="_blank"
+                          className="mt-6 text-blue-600 underline hover:text-blue-800"
+                    >
+                        Anexa Petiției
+                    </Link>
+                </p>
+
             </div>
         </footer>
     )

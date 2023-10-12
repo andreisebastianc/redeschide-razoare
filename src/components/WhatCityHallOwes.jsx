@@ -34,6 +34,15 @@ export function WhatCityHallOwes() {
                 >Semnează petiția
                 </Link>!
                 </p>
+
+                <p className="mt-8 text-xl tracking-tight text-blue-700">
+                    Anexa petiției poate fi consultată <Link
+                    href="https://drive.google.com/file/d/1LM064RWbsDVRskhhvmcZxl4Bj9RwrpjR/view?usp=share_link"
+                    target="_blank"
+                    className="mt-6 text-blue-600 underline hover:text-blue-800"
+                >aici
+                </Link>.
+                </p>
             </Container>
         </section>
     )
