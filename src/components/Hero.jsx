@@ -4,6 +4,7 @@ import { Button } from '@/components/Button'
 import coverImage1 from '@/images/cover-1.png'
 import coverImage2 from '@/images/cover-2.png'
 import {CheckIcon} from "@/components/CheckIcon";
+import Link from "next/link";
 
 
 export function Hero() {
@@ -26,7 +27,12 @@ export function Hero() {
               Cerem Primăriei Florești redeschiderea imediată a sensului unic pe strada Răzoare, pe sectorul cuprins între intersecția str. Valea Gârboului nr. 1 și până la str. Răzoare nr. 199, pentru trafic din ambele sensuri.
             </p>
             <p className="mt-16 text-xl text-slate-600">
-              Participă și tu la această inițiativă cetățenească.
+              Participă și tu la această inițiativă cetățenească.<br/> Vezi soluția propusă de noi <Link
+                href="https://drive.google.com/file/d/1LM064RWbsDVRskhhvmcZxl4Bj9RwrpjR/view?usp=share_link"
+                target="_blank"
+                className="mt-6 text-blue-600 underline hover:text-blue-800"
+            >aici.
+            </Link>
             </p>
             <div className="mt-8 flex gap-4">
               <Button

@@ -43,6 +43,13 @@ export function OneYearLater() {
                         >semnează petiția
                         </Link>!
                         </p>
+                        <p className="mt-4 text-xl tracking-tight text-slate-700">
+                            Dacă ești curios, studiază soluția propusă de noi în <Link
+                            href="https://drive.google.com/file/d/1LM064RWbsDVRskhhvmcZxl4Bj9RwrpjR/view?usp=share_link"
+                            target="_blank"
+                            className="mt-6 text-blue-600 underline hover:text-blue-800"
+                        >anexă</Link>.
+                        </p>
                     </div>
                 </div>
             </div>
