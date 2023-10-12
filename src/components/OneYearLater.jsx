@@ -28,41 +28,7 @@ export function OneYearLater() {
                             oră.
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
-                            Primăria Florești recunoaște public insuficiența numărului de autobuze și insistă că
-                            acționează după o metodă științifică. <Link
-                            href="https://www.facebook.com/bogdannicolaepivariu/posts/pfbid0ho46ZaNPSj5R61P9u4Yf9aTqBDhzvjjWkpNRyawJ1STHfds8GxtHvxv3BCP1ejhpl"
-                            className="text-blue-600 underline" target="_blank">Aici</Link> și <Link
-                            className="text-blue-600 underline"
-                            href="https://www.facebook.com/bogdannicolaepivariu/posts/pfbid02FPARvmSdcTZxknzBdaz5BGu2gyGJCdrT1f6RijoQhzVcMU9QigRNrFwWPBRzpWkrl"
-                            target="_blank">aici</Link> veți găsi anunțuri făcute de Primar despre analizele
-                            detaliate,
-                            concretizate în curse suplimentare și linii noi, precum și îndemnul dânsului la folosirea în
-                            număr cât mai mare a mijloacelor de transport în comun.
-                        </p>
-                        <p className="mt-4 text-xl tracking-tight text-slate-700">
                             Un an mai târziu, Primăria nu are o soluție de transport în comun pentru această zonă.
-                            Din 2015, când <Link className="text-blue-600 underline"
-                                                 href="https://actualdecluj.ro/floresti-cea-mai-mare-comuna-din-romania-isi-dubleaza-populatia-in-10-ani-ajunge-a-doua-cea-mai-mare-localitate-din-judet-dupa-cluj-napoca-depaseste-turda/"
-                                                 target="_blank">populația comunei Florești era jumatate din cât e
-                            azi</Link>, soluția prezentată a fost <Link
-                            href="https://www.google.com/search?client=firefox-b-d&q=centura+de+sud+floresti"
-                            target="_blank">Centura de Sud</Link>.
-                        </p>
-                        <p className="mt-4 text-xl tracking-tight text-slate-700">
-                            Recensământul din 2022 arată cum comuna Florești, cu o populație rezidentă de 52.735
-                            locuitori, aproape a ajuns orașul Alba Iulia, care are o populație de 64.227 locuitori.<br/>
-                            Din 2011, populația Florești a crescut cu 29.325 persoane, în timp ce Alba Iulia a crescut
-                            cu 691.
-                        </p>
-                        <p className="mt-4 text-xl tracking-tight text-slate-700">
-                            Din păcate, cetățenii din Florești nu au un număr comparabil de creșe, școli și grădinițe
-                            unde să își ducă copiii așa că o iau pe drumul Clujului.
-                        </p>
-                        <p className="mt-4 text-xl tracking-tight text-slate-700">
-                            În ajutorul nostru, Primăria Florești îngreunează traficul si <Link
-                            href="https://www.facebook.com/photo/?fbid=10163087414964148&set=gm.6084801438285928&idorvanity=433634066736055"
-                            target="_blank" className="text-blue-600 underline">crește intentionat disconfortul</Link>,
-                            fără să finalizeze promisiunile.
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
                             Noi credem ca Primăria Florești trebuie să desființeze acest sens unic, cel puțin pană la
