@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
+import PHProvider from "@/app/provider";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,19 +25,21 @@ export default function RootLayout({ children }) {
         inter.variable,
       )}
     >
-      <head>
-        <link
-          rel="preconnect"
-          href="https://cdn.fontshare.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
-        />
-        <title>Redeschide Răzoare</title>
-      </head>
-      <body className="flex min-h-full flex-col">{children}</body>
+      <PHProvider>
+        <head>
+          <link
+            rel="preconnect"
+            href="https://cdn.fontshare.com"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="stylesheet"
+            href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
+          />
+          <title>Redeschide Răzoare</title>
+        </head>
+        <body className="flex min-h-full flex-col">{children}</body>
+      </PHProvider>
     </html>
   )
 }
