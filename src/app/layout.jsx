@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
         />
+        <title>Redeschide Răzoare</title>
       </head>
       <body className="flex min-h-full flex-col">{children}</body>
     </html>
