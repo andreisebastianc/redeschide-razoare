@@ -5,6 +5,7 @@ import {OneYearLater} from "@/components/OneYearLater";
 import {WhatCityHallOwes} from "@/components/WhatCityHallOwes";
 import {RazoareYoutube} from "@/components/RazoareYoutube";
 import {Footer} from "@/components/Footer";
+import {Solution} from "@/components/Solution";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
             <Introduction/>
             <RazoareYoutube />
             <OneYearLater />
+            <Solution/>
             <WhatCityHallOwes />
             <Footer />
         </>
