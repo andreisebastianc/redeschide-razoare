@@ -1,11 +1,6 @@
-import Link from 'next/link'
-
-import {CheckIcon} from '@/components/CheckIcon'
 import {Container} from '@/components/Container'
 import coverImage1 from "@/images/cover-1.png";
 import Image from "next/image";
-import Youtube from "@/components/Youtube";
-
 
 export function Introduction() {
     return (
