@@ -27,7 +27,7 @@ export function Hero() {
               Cerem Primăriei Florești redeschiderea imediată a sensului unic pe strada Răzoare, pe sectorul cuprins între intersecția str. Valea Gârboului nr. 1 și până la str. Răzoare nr. 199, pentru trafic din ambele sensuri.
             </p>
             <p className="mt-16 text-xl text-slate-600">
-              Participă și tu la această inițiativă cetățenească.<br/> Inscrie-te in <Link
+              Participă și tu la această inițiativă cetățenească.<br/> Înscrie-te in <Link
                 href="https://www.facebook.com/groups/341837508295570"
                 target="_blank"
                 className="mt-6 text-blue-600 underline hover:text-blue-800"

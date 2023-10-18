@@ -21,19 +21,17 @@ export function OneYearLater() {
                             Mai mult, acest proiect a dus direct la scăderea calității vieții pentru mulți floreșteni.
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
-                            Neavând transport în comun în aceasta zonă cetățenii sunt obligați să stea în coloană de
+                            Neavând transport în comun în această zonă, cetățenii sunt obligați să stea în coloană de
                             mașini sau
-                            să se deplaseze pe jos, pe un drum fara trotuar, străbătut dimineața și seara, de mii de
-                            mașini pe
-                            oră.
+                            să se deplaseze pe jos, pe un drum fără trotuar, străbătut dimineața și seara, de mii de
+                            mașini pe oră.
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
                             Un an mai târziu, Primăria nu are o soluție de transport în comun pentru această zonă.
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
-                            Noi credem ca Primăria Florești trebuie să desființeze acest sens unic, cel puțin pană la
-                            momentul
-                            în care zona e deservită de transport în comun.
+                            Noi credem că Primăria Florești trebuie să desființeze acest sens unic, cel puțin până la
+                            momentul în care zona e deservită de transport în comun.
                         </p>
                         <p className="mt-4 text-xl tracking-tight text-slate-700">
                             Dacă ești de acord, <Link
